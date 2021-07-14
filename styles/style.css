@@ -1,0 +1,53 @@
+/*
+p, h1 {
+    color: darkgreen;
+    width: 500px;
+    border: 1px dotted black;
+}
+
+ol {
+    color: darkseagreen;
+}
+
+ul {
+    color: lightsalmon;
+}
+*/
+
+html {
+  font-size: 10px; /* px 은 'pixels' 를 의미합니다: 기본 글자 크기는 현재 10 pixels 높이입니다. */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 1px black; 
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+html {
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 550px;
+}
